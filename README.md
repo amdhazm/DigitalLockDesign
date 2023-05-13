@@ -17,7 +17,7 @@ Overall, the Digital Lock Circuit project is a great way to implement a secure a
 ## Project Sections
 The project is composed of four key elements:
 * numerical keypad
-* memory unit
+* memory section
 * notification panel 
 * clock circuit
 
@@ -33,4 +33,5 @@ To interface with a digital circuit, the numerical keypad uses encoder ICs such 
 When a user presses a button on the numerical keypad, the corresponding decimal value is sent to the appropriate 74HC148 encoder IC. The IC then converts this value into a binary code that is sent to the digital circuit for processing. Each digit is encoded into four binary numbers: K3, K2, K1, and K0. These numbers represent the value of the button pressed in binary format. For example, if the user presses the button labeled "5", the corresponding binary output would be 0101.
 
 By using two 74HC148 encoder ICs, the keypad is able to convert all possible inputs into binary output that can be easily interpreted by the digital circuitry. This allows the system to recognize the input and perform the appropriate action, such as verifying a password or performing a specific operation. Overall, the use of a numerical keypad with encoder ICs provides a simple and efficient way to input numerical data into a digital system.
-
+***
+### 2. Memory Section
