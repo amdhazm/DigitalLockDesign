@@ -63,13 +63,39 @@ The 2732 is a memory IC that can store up to 4K bits of data. It is commonly use
 
 To get more than 8 output pins from a memory IC like the 2732, one solution is to use two of them in parallel. By connecting the address inputs and control pins of the two ICs together, they can be treated as a single larger memory IC with twice the capacity and twice the number of output pins.
 
-##### Input Pins Table
-| Pin | Usage           |
-| --- | ---------------|
-| A0  | K0 from keypad  |
-| A1  | K1 from keypad  |
-| A2  | K2 from keypad  |
-| A3  | K3 from keypad  |
+### Input Pins Table
+| Pin | Usage                         |
+| --- | -----------------------------|
+| A0  | K0 from keypad                      |
+| A1  | K1 from keypad                      |
+| A2  | K2 from keypad                      |
+| A3  | K3 from keypad                      |
+| A4  | D3 from EPROM0 output as next state |
+| A5  | D4 from EPROM0 output as next state |
+| A6  | D5 from EPROM0 output as next state |
+| A7  | D6 from EPROM0 output as next state |
+| A8  | D7 from EPROM0 output as next state |
+
+### Output Pins Table
+#### For EPROM0
+| Pin | Usage            |
+| --- | ----------------|
+| D0  | I1 output        |
+| D1  | I2 output        |
+| D2  | Latch Output (LO)|
+| D3  | Q0 for next state|
+| D4  | Q1 for next state|
+| D5  | Q2 for next state|
+| D6  | Q3 for next state|
+| D7  | Q4 for next state|
+
+#### For EEPROM1
+| Pin | Usage    |
+|-----|----------|
+| D0  | A output |
+| D1  | T output |
+| D2  | IP output|
+| D3  | I0 output|
 
 
 
