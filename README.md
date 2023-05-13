@@ -20,5 +20,6 @@ The project is composed of four key elements:
 2. memory unit, 
 3. notification panel 
 4. clock circuit
+
 Together, these components form a functional system for a specific purpose, although the exact nature of that purpose is not specified. The numerical keypad is used to input data, which is then stored in the memory unit. The notification panel provides feedback to the user, indicating the status of the system or the input provided. The clock circuit helps to keep track of time or other relevant metrics, depending on the specific application of the system.
 
