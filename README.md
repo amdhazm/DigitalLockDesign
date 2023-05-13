@@ -63,6 +63,13 @@ The 2732 is a memory IC that can store up to 4K bits of data. It is commonly use
 
 To get more than 8 output pins from a memory IC like the 2732, one solution is to use two of them in parallel. By connecting the address inputs and control pins of the two ICs together, they can be treated as a single larger memory IC with twice the capacity and twice the number of output pins.
 
+##### Input Pins Table
+| Pin | Usage                 |
+| --- | ---------------------|
+| A0  | The input from keypad |
+|     | "K0"                 |
+
+
 ### Using 74HC374 IC as Delay for Memory
 ![image](https://github.com/amdhazm/DigitalLockDesign/assets/133523862/fac16c47-9c6a-46bd-9d76-718eaea64faf)
 
