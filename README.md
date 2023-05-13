@@ -16,14 +16,14 @@ Overall, the Digital Lock Circuit project is a great way to implement a secure a
 
 ## Project Sections
 The project is composed of four key elements:
-1. numerical keypad
-2. memory unit
-3. notification panel 
-4. clock circuit
+* numerical keypad
+* memory unit
+* notification panel 
+* clock circuit
 
 Together, these components form a functional system for a specific purpose, although the exact nature of that purpose is not specified. The numerical keypad is used to input data, which is then stored in the memory unit. The notification panel provides feedback to the user, indicating the status of the system or the input provided. The clock circuit helps to keep track of time or other relevant metrics, depending on the specific application of the system.
-
-### Numerical Keypad
+***
+###1. Numerical Keypad
 ![image](https://github.com/amdhazm/DigitalLockDesign/assets/133523862/1a483672-79fc-4a83-b95f-5763c9167f74)
 
 A numerical keypad is a device that allows users to input numerical data into a digital system. Typically, the keypad consists of a set of buttons, each labeled with a numerical digit, as well as special buttons for OK and Clear functions.
