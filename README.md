@@ -1,4 +1,6 @@
 # DigitalLockDesign
+![image](https://github.com/amdhazm/DigitalLockDesign/assets/133523862/a2ccab23-f77c-4843-88b7-b0987883d762)
+
 The Digital Lock Circuit project is a simple yet effective security system that uses an EEPROM to store passwords and control access to a device or area. The circuit is implemented without using a microcontroller, making it a cost-effective and reliable solution.
 
 There are two types of passwords in this system. The first password is for regular users and is formed from 4 digits. The second password is for the administrator and is formed from 6 digits. If a user enters the wrong password twice, the system requires the administrator to enter their password to open the lock.
@@ -10,4 +12,4 @@ If the administrator enters the wrong password, the system stops completely and 
 This Digital Lock Circuit project is ideal for securing devices such as safes, lockers, or even homes. The use of an EEPROM allows for easy password programming and storage, and the LED indicators provide a clear indication of the system's status.
 
 Overall, the Digital Lock Circuit project is a great way to implement a secure access control system without using a microcontroller, making it a perfect choice for hobbyists and DIY enthusiasts who want to build their own security system.
-![image](https://github.com/amdhazm/DigitalLockDesign/assets/133523862/a2ccab23-f77c-4843-88b7-b0987883d762)
+
