@@ -44,7 +44,7 @@ When a user presses a button on the numerical keypad, the corresponding decimal 
 
 By using two 74HC148 encoder ICs, the keypad is able to convert all possible inputs into binary output that can be easily interpreted by the digital circuitry. This allows the system to recognize the input and perform the appropriate action, such as verifying a password or performing a specific operation. Overall, the use of a numerical keypad with encoder ICs provides a simple and efficient way to input numerical data into a digital system.
 ***
-### 2. Memory Section
+## 2. Memory Section
 
 ![image](https://github.com/amdhazm/DigitalLockDesign/assets/133523862/aa290f67-9d99-436b-b2e3-1cb44506e396)
 
@@ -126,5 +126,41 @@ The 74HC374 can be used to delay the output data from the memory by connecting i
 To use the 74HC374 as a delay for memory, the data output pins of the memory IC are connected to the data input pins of the 74HC374. The data output pins of the 74HC374 are then connected to the inputs of other parts of the circuit.
 
 The delay time provided by the 74HC374 can be adjusted by changing the clock frequency applied to the clock input pins of the IC. By increasing the clock frequency, the delay time is reduced, and by decreasing the clock frequency, the delay time is increased.
+***
+## Notification Panel
+![image](https://github.com/amdhazm/DigitalLockDesign/assets/133523862/45ed6081-d6e7-4581-9e02-9b1ee167b7a1)
 
+### The six LEDs that indicate the number of digits
+![image](https://github.com/amdhazm/DigitalLockDesign/assets/133523862/a90d5e93-4abf-4943-9f76-ae7d2f5352ce)
 
+To explain the process of converting a binary number to decimal using a Decoder 74HC137 and connecting its output pins to 6 LEDs that indicate the entered number, we first need to understand what a Decoder is.
+
+A Decoder is a combinational logic circuit that converts a binary input signal into an output signal representing a single, specific value. In the case of the 74HC137 Decoder, it has 3 binary input signals (I0, I1, and I2) and 8 output signals (Y0-Y7). The output signal that is active (i.e., has a logical high state) is determined by the binary input signal.
+
+To convert a binary number to decimal using a Decoder 74HC137, we connect the binary input signal to the I0, I1, and I2 pins of the Decoder and connect the output pins Y0-Y7 to the corresponding LEDs.
+
+For example, if we have a binary number 101 (which represents decimal number 5), we would connect I0 to logic 1, I1 to logic 0, and I2 to logic 1. The Decoder would then activate output pin Y5, which is connected to the 5th LED, indicating that the entered number is 5.
+
+By connecting the output pins Y0-Y7 to the corresponding LEDs, we can display the entered number in decimal form, making it easier for the user to understand and interact with the system.
+
+### L.O LED 
+![image](https://github.com/amdhazm/DigitalLockDesign/assets/133523862/64d422ea-29c2-42ac-8df2-bb3f521e0430)
+
+The L.O LED is a visual indicator that shows whether the system is currently in an opened state or not. If the user enters the correct password, the system will transition to an opened state and the L.O LED will turn on. This can help the user to confirm that they have successfully entered the correct password and that they are now able to access the system. 
+
+### T LED 
+![image](https://github.com/amdhazm/DigitalLockDesign/assets/133523862/bb915468-f193-4348-b27b-b42435f1b3bc)
+The T LED is used to indicate the number of trial attempts that the user has made to enter the password. It can be used to give the user feedback on their progress.
+
+For example, if the T LED is off, it means that the user is on their first trial attempt. If the T LED is on, it means that the user is on their second trial attempt. This can continue up to a maximum number of trial attempts, after which the system might lock the user out or take other security measures.
+
+Overall, the T LED is an important component of the system's security features and helps to keep the user informed about their progress in entering the correct password.
+
+### IP LED
+![image](https://github.com/amdhazm/DigitalLockDesign/assets/133523862/cf36b5bb-5d65-45a3-9ef3-f5155bfb415b)
+
+The IP LED stands for "In the Administrator Password." When the user enters the wrong password twice in a row, it means that there may be a security issue or an attempted breach. In such cases, the system may require the administrator to enter a special password to verify that they have the authority to access the system.
+
+The purpose of the IP LED is to indicate to the user that the system has entered a special mode that requires the administrator password. When the LED is lit, the user knows that they cannot proceed without entering the correct password, and that they must seek assistance from the administrator.
+
+The use of the IP LED in this way helps to ensure the security of the system by requiring a higher level of authentication before allowing access.
