@@ -22,6 +22,16 @@ The project is composed of four key elements:
 * clock circuit
 
 Together, these components form a functional system for a specific purpose, although the exact nature of that purpose is not specified. The numerical keypad is used to input data, which is then stored in the memory unit. The notification panel provides feedback to the user, indicating the status of the system or the input provided. The clock circuit helps to keep track of time or other relevant metrics, depending on the specific application of the system.
+
+## Project Symbol 
+| Symbol | Meaning                                                        |
+|--------|----------------------------------------------------------------|
+| L.O    | Is System Opened?                                               |
+| I2 I1 I0 | The 3 binary digit for six LEDs that indicate the number of digits entered by the user |
+| IP     | Is system In the Adminstrator password                           |
+| T      | Number of trial LED                                             |
+| A      | For alarm                                                       |
+
 ***
 ### 1. Numerical Keypad
 ![image](https://github.com/amdhazm/DigitalLockDesign/assets/133523862/1a483672-79fc-4a83-b95f-5763c9167f74)
@@ -82,7 +92,7 @@ To get more than 8 output pins from a memory IC like the 2732, one solution is t
 | --- | ----------------|
 | D0  | I1 output        |
 | D1  | I2 output        |
-| D2  | Latch Output (LO)|
+| D2  | L.O output       |
 | D3  | Q0 for next state|
 | D4  | Q1 for next state|
 | D5  | Q2 for next state|
