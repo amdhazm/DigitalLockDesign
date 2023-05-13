@@ -1,4 +1,4 @@
-# Digital Lock Design Without Microcontroller
+# Simulation Of Digital Lock Design Without Microcontroller Using Proteus 8.13
 
 ![image](https://github.com/amdhazm/DigitalLockDesign/assets/133523862/a2ccab23-f77c-4843-88b7-b0987883d762)
 
@@ -127,7 +127,7 @@ To use the 74HC374 as a delay for memory, the data output pins of the memory IC 
 
 The delay time provided by the 74HC374 can be adjusted by changing the clock frequency applied to the clock input pins of the IC. By increasing the clock frequency, the delay time is reduced, and by decreasing the clock frequency, the delay time is increased.
 ***
-## Notification Panel
+## 3. Notification Panel
 ![image](https://github.com/amdhazm/DigitalLockDesign/assets/133523862/45ed6081-d6e7-4581-9e02-9b1ee167b7a1)
 
 ### The six LEDs that indicate the number of digits
@@ -164,3 +164,7 @@ The IP LED stands for "In the Administrator Password." When the user enters the 
 The purpose of the IP LED is to indicate to the user that the system has entered a special mode that requires the administrator password. When the LED is lit, the user knows that they cannot proceed without entering the correct password, and that they must seek assistance from the administrator.
 
 The use of the IP LED in this way helps to ensure the security of the system by requiring a higher level of authentication before allowing access.
+***
+## 4. Clock Circuit
+![0c1be4ea-aa49-454c-98c6-e872d5d8a56d](https://github.com/amdhazm/DigitalLockDesign/assets/133523862/81f166ed-2893-49ad-a6f2-6a48abfd88be) ![image](https://github.com/amdhazm/DigitalLockDesign/assets/133523862/dbb8dd2d-f599-41b3-b972-7814e36b1c87)
+
