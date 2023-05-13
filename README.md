@@ -58,7 +58,12 @@ The 2732 can be used to store this output data by connecting its data output pin
 
 When the circuit is powered on or reset, the output data is read from the EEPROM and used to initialize the display devices to their previous state.
 
-#### Using 74HC374 IC as Delay for Memory
+##### Using Tow ICs of 2732 EPROM
+The 2732 is a memory IC that can store up to 4K bits of data. It is commonly used in digital circuits to store program code or other data that needs to be accessed quickly. However, one limitation of the 2732 is that it only has 8 output pins, which can be a problem in circuits that require more than 8 output signals.
+
+To get more than 8 output pins from a memory IC like the 2732, one solution is to use two of them in parallel. By connecting the address inputs and control pins of the two ICs together, they can be treated as a single larger memory IC with twice the capacity and twice the number of output pins.
+
+### Using 74HC374 IC as Delay for Memory
 ![image](https://github.com/amdhazm/DigitalLockDesign/assets/133523862/fac16c47-9c6a-46bd-9d76-718eaea64faf)
 
 
