@@ -165,6 +165,28 @@ The purpose of the IP LED is to indicate to the user that the system has entered
 
 The use of the IP LED in this way helps to ensure the security of the system by requiring a higher level of authentication before allowing access.
 ***
-## 4. Clock Circuit
+## 4. Clock Circuit Using 555
 ![0c1be4ea-aa49-454c-98c6-e872d5d8a56d](https://github.com/amdhazm/DigitalLockDesign/assets/133523862/81f166ed-2893-49ad-a6f2-6a48abfd88be) ![image](https://github.com/amdhazm/DigitalLockDesign/assets/133523862/dbb8dd2d-f599-41b3-b972-7814e36b1c87)
+
+The 555 timer IC can be used as a digital clock generator circuit. The 555 timer is a versatile and widely used IC that can operate in various modes. The digital clock circuit using the 555 timer IC can generate accurate and stable clock pulses with a high degree of precision.
+
+The 555 timer IC can be configured to operate in astable mode, which means that it can generate a continuous stream of pulses. The frequency of the pulses can be set using external components such as resistors and capacitors. By adjusting the values of these components, the frequency of the clock pulses can be precisely controlled.
+
+The digital clock circuit using the 555 timer IC typically consists of the following components:
+
+- 555 timer IC: This is the main component of the circuit, which generates the clock pulses.
+- Resistors: These are used to set the frequency of the clock pulses.
+- Capacitors: These are also used to set the frequency of the clock pulses.
+- LEDs: These are used to indicate the output of the clock pulses.
+- Power supply: The circuit requires a power supply to operate.
+
+The digital clock circuit using the 555 timer IC works by charging and discharging the capacitor connected to the 555 timer IC. When the capacitor is charged, the output of the 555 timer IC goes high, and when the capacitor is discharged, the output goes low. This process continues, generating a continuous stream of clock pulses.
+
+The frequency of the clock pulses can be calculated using the following formula:
+
+f = 1.44 / ((R1 + 2 * R2) * C)
+
+Where f is the frequency of the clock pulses, R1 and R2 are the resistors used in the circuit, and C is the capacitance of the capacitor used in the circuit.
+
+Overall, the digital clock circuit using the 555 timer IC is a simple yet effective way to generate accurate and stable clock pulses.
 
