@@ -90,12 +90,12 @@ To get more than 8 output pins from a memory IC like the 2732, one solution is t
 | D7  | Q4 for next state|
 
 #### For EEPROM1
-| Pin | Usage    |
-|-----|----------|
-| D0  | A output |
-| D1  | T output |
-| D2  | IP output|
-| D3  | I0 output|
+| Pin | Usage            |
+|-----|-----------------|
+| D0  | A output         |
+| D1  | T output         |
+| D2  | IP output        |
+| D3  | I0 output        |
 
 
 
