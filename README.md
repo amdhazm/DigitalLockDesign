@@ -59,6 +59,8 @@ The 2732 can be used to store this output data by connecting its data output pin
 When the circuit is powered on or reset, the output data is read from the EEPROM and used to initialize the display devices to their previous state.
 
 #### Using 74HC374 IC as Delay for Memory
+![image](https://github.com/amdhazm/DigitalLockDesign/assets/133523862/fac16c47-9c6a-46bd-9d76-718eaea64faf)
+
 
 The 74HC374 is an octal D-type flip-flop IC that can be used as a delay element in digital circuits. In the context of a circuit that uses a memory IC like the 2732, the 74HC374 can be used to delay the output data from the memory and ensure that it is stable before being sent to other parts of the circuit.
 
